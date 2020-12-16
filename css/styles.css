@@ -1,0 +1,181 @@
+/*My version of Pesticide, comment out when not needed*/
+/*
+html * {
+background: rgba(255, 0, 0, .1);
+box-shadow: 0 0 0 1px blue;
+}
+*/
+
+body{
+  margin:0;
+  text-align: center;
+  border-top: 0;
+  /*font-family: 'Merriweather', serif;*/
+}
+
+h1{
+font-family: 'Dancing Script', cursive;
+font-size: 5.5rem;
+margin: 70px auto 0 auto;
+color: #66BFBF;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-bottom: 0;
+}
+
+.busy{
+  margin-bottom: 20px;
+}
+
+.p1{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 2rem;
+  margin: 5px auto 5px auto;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+p{
+font-size: 1rem;
+font-family: 'Didact Gothic', sans-serif;
+margin-top: 0;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.mountain{
+}
+
+.menuBar{
+  overflow: hidden;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #66BFBF;
+  position: fixed;
+}
+
+.pMenu{
+  display: inline-block;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.5rem;
+  color: #EAF6F6;
+}
+
+.cloud1{
+  position: absolute;
+  right: 180px;
+  top: 90px;
+}
+
+.cloud2{
+position: absolute;
+left: 110px;
+bottom: 450px;
+}
+
+.top{
+  background-color: white;
+  padding-top: 100px;
+}
+
+.mid{
+
+}
+
+.footContainer{
+  background-color: #EAF6F6;
+  height: 15px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+hr{
+  width: 75px;
+  border-style: dotted;
+  border-width: 9px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  color: #66BFBF;
+
+}
+
+.techImg{
+  width: 60%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.fol{
+  width: 60%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.pSecondLast{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2em;
+  color: #66BFBF;
+  font-family: 'Didact Gothic', sans-serif;
+  display: inline-block;
+}
+
+.pLast{
+  font-size: 0.8em;
+  padding-top: 0;
+  color: #66BFBF;
+}
+
+.incoming{
+  padding-bottom: 30px;
+}
+
+.lastH2{
+  padding-top: 30px;
+}
+
+.mySkills{
+  padding-top: 30px;
+}
+
+.btn{
+  margin: 20px 0 20px 0;
+  padding: 10px 20px 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #66BFBF;
+  text-shadow: 1px 1px 1px white;
+  text-decoration-line: none;
+}
+
+.btn:hover{
+  background-color: #EAF6F6;
+}
